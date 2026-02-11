@@ -9,7 +9,7 @@ const teamMembers = [
     role: "Tech Lead",
     subtitle: "IIT Kharagpur 2026",
     major: "Chemical Engineering",
-    imgUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1887&auto=format&fit=crop", // Professional Male Placeholder
+    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770810766/Samridh_ib1sml.jpg", // Professional Male Placeholder
     delay: 0.1
   },
   {
