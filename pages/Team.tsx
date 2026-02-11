@@ -17,7 +17,7 @@ const teamMembers = [
     role: "Strategy Lead",
     subtitle: "IIT Kharagpur 2026",
     major: "Economics",
-    imgUrl: "/images/1abd144c-68c8-497f-9849-ddea2e4022a3.jpeg", // Professional Male Placeholder
+    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770808209/1abd144c-68c8-497f-9849-ddea2e4022a3_xp4iwa.jpg", // Professional Male Placeholder
     delay: 0.2
   },
   {
