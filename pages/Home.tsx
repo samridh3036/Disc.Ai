@@ -4,11 +4,12 @@ import { ArrowRight, ChevronUp, Layers, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 // --- Assets & Icons ---
+import OpenAILogo from '../assets/openai.png';
+
+// --- Assets & Icons ---
 const OpenAIIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth="1.5">
-    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8Z" opacity="0.4"/>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M9.5 9.5 12 12l2.5-2.5M12 12v6" />
-  </svg>
+  // Use the provided image for the OpenAI icon
+  <img src={OpenAILogo} alt="OpenAI" className="w-4 h-4 object-contain" />
 );
 
 const GeminiIcon = () => (
