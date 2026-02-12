@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
            <div className="mt-8 pt-8 border-t border-white/10 text-center">
               <p className="text-gray-500 text-sm">Or email us directly at</p>
               <a href="mailto:hello@discovrr.ai" className="text-blue-400 hover:text-blue-300 font-medium flex items-center justify-center gap-2 mt-2">
-                 <Mail size={16} /> hello@discovrr.ai
+                 <Mail size={16} /> Amarpreet@discovrr.ai
               </a>
            </div>
         </div>
