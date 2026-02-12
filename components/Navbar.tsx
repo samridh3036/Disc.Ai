@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 // DiscovrrLogo now renders an image from the public folder
 export const DiscovrrLogo = ({ className = "w-10 h-10" }: { className?: string }) => (
   <img
-    src="/images/d-logo.png"
+    src="/images/d-logo.jpg"
     alt="discovrr logo"
     className={className}
     loading="lazy"
