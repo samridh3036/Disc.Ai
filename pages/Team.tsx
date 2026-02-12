@@ -17,15 +17,15 @@ const teamMembers = [
     role: "Strategy Lead",
     subtitle: "IIT Kharagpur 2026",
     major: "Economics",
-    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770808209/1abd144c-68c8-497f-9849-ddea2e4022a3_xp4iwa.jpg", // Professional Male Placeholder
+    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770931938/1abd144c-68c8-497f-9849-ddea2e4022a3_crrzgk.jpg", // Professional Male Placeholder
     delay: 0.2
   },
   {
     name: "Unnat Agrawal",
-    role: "Outreach Lead",
+    role: "AI Lead",
     subtitle: "IIT Kharagpur 2026",
     major: "Mathematics and Computing",
-    imgUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop", // Professional Male Placeholder
+    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932044/unnat_om9rrq.jpg", // Professional Male Placeholder
     delay: 0.3
   }
 ];
