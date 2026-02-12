@@ -7,7 +7,7 @@ const teamMembers = [
   {
     name: "Samridh Joshi",
     role: "Tech Lead",
-    subtitle: "IIT Kharagpur 2026",
+    subtitle: "IIT Kharagpur",
     major: "Chemical Engineering",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770810766/Samridh_ib1sml.jpg", // Professional Male Placeholder
     delay: 0.1
@@ -15,7 +15,7 @@ const teamMembers = [
   {
     name: "Amarpreet Singh",
     role: "Strategy Lead",
-    subtitle: "IIT Kharagpur 2026",
+    subtitle: "IIT Kharagpur",
     major: "Economics",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932402/1abd144c-68c8-497f-9849-ddea2e4022a3_eq3pho.jpg", // Professional Male Placeholder
     delay: 0.2
@@ -23,7 +23,7 @@ const teamMembers = [
   {
     name: "Unnat Agrawal",
     role: "AI Lead",
-    subtitle: "IIT Kharagpur 2026",
+    subtitle: "IIT Kharagpur",
     major: "Mathematics and Computing",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932044/unnat_om9rrq.jpg", // Professional Male Placeholder
     delay: 0.3
