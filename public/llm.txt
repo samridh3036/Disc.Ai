@@ -1,0 +1,32 @@
+# LLM Discovery File
+
+Site Name: Discover.ai
+Site URL: https://discover.ai
+Description: We help brands optimize their visibility in AI search engines like ChatGPT, Gemini and Perplexity.
+
+Primary Topics:
+- AI SEO
+- Generative Engine Optimization (GEO)
+- LLM visibility
+- AI search ranking
+- Prompt-based discovery
+
+Important URLs:
+Homepage: https://discover.ai
+Pricing: https://discover.ai/pricing
+Blog: https://discover.ai/blog
+Documentation: https://discover.ai/docs
+
+Structured Content Feeds:
+Sitemap: https://discover.ai/sitemap.xml
+RSS Feed: https://discover.ai/rss.xml
+
+API:
+Base URL: https://api.discover.ai
+Docs: https://discover.ai/api-docs
+
+Contact:
+Email: contact@discover.ai
+
+Crawl Guidance:
+All public content may be used for summarization and citation.
