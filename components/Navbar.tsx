@@ -3,35 +3,15 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Pixelated D Logo
+// DiscovrrLogo now renders an image from the public folder
 export const DiscovrrLogo = ({ className = "w-10 h-10" }: { className?: string }) => (
-  <svg viewBox="0 0 100 100" fill="none" className={className} xmlns="http://www.w3.org/2000/svg">
-    <rect x="10" y="10" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="30" y="10" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="50" y="10" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="70" y="10" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="10" y="30" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="10" y="50" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="30" y="50" width="18" height="18" rx="2" fill="#0f172a" /> 
-    <rect x="10" y="70" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="30" y="70" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="50" y="70" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="70" y="70" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="70" y="30" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="70" y="50" width="18" height="18" rx="2" fill="#0f172a" />
-    <rect x="30" y="50" width="18" height="18" rx="2" fill="#F59E0B" />
-    <rect x="30" y="70" width="18" height="18" rx="2" fill="#F59E0B" />
-    <rect x="50" y="50" width="18" height="18" rx="2" fill="#F97316" />
-    <rect x="50" y="30" width="18" height="18" rx="2" fill="#F97316" />
-    <rect x="50" y="50" width="18" height="18" rx="2" fill="#EF4444" />
-    <rect x="70" y="30" width="18" height="18" rx="2" fill="#EC4899" />
-    <rect x="70" y="50" width="18" height="18" rx="2" fill="#EC4899" /> 
-     <rect x="30" y="70" width="18" height="18" rx="2" fill="#0f172a" />
-     <rect x="30" y="50" width="18" height="18" rx="2" fill="#FFD700" />
-     <rect x="50" y="50" width="18" height="18" rx="2" fill="#FF4500" />
-     <rect x="50" y="30" width="18" height="18" rx="2" fill="#FF4500" />
-     <rect x="70" y="40" width="18" height="18" rx="2" fill="#FF0055" />
-  </svg>
+  <img
+    src="/images/d-logo.png"
+    alt="discovrr logo"
+    className={className}
+    loading="lazy"
+    draggable={false}
+  />
 );
 
 const Navbar: React.FC = () => {
