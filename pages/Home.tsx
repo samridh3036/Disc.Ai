@@ -19,11 +19,12 @@ const GeminiIcon = () => (
   </svg>
 );
 
+import PerplexityLogo from '../assets/perplexity.png';
+
+// --- Assets & Icons ---
 const PerplexityIcon = () => (
-  <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4" stroke="currentColor" strokeWidth="1.5">
-    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z" strokeOpacity="0.5"/>
-    <path d="M8 12h8m-4-4v8" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
-  </svg>
+  // Use the provided image for the Perplexity icon
+  <img src={PerplexityLogo} alt="Perplexity" className="w-4 h-4 object-contain" />
 );
 
 // --- 3D Tilt Card Component ---
