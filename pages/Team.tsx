@@ -8,7 +8,6 @@ const teamMembers = [
     name: "Samridh Joshi",
     role: "Tech Lead",
     subtitle: "IIT Kharagpur",
-    major: "Chemical Engineering",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770810766/Samridh_ib1sml.jpg", // Professional Male Placeholder
     delay: 0.1
   },
@@ -16,7 +15,6 @@ const teamMembers = [
     name: "Amarpreet Singh",
     role: "Strategy Lead",
     subtitle: "IIT Kharagpur",
-    major: "Economics",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932402/1abd144c-68c8-497f-9849-ddea2e4022a3_eq3pho.jpg", // Professional Male Placeholder
     delay: 0.2
   },
@@ -24,7 +22,6 @@ const teamMembers = [
     name: "Unnat Agrawal",
     role: "AI Lead",
     subtitle: "IIT Kharagpur",
-    major: "Mathematics and Computing",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932044/unnat_om9rrq.jpg", // Professional Male Placeholder
     delay: 0.3
   }
@@ -86,9 +83,6 @@ const Team: React.FC = () => {
        
        <div className="container mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-20">
-             <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-teal-900/30 border border-teal-500/30 text-teal-400 text-xs font-bold uppercase tracking-widest mb-6">
-                <GraduationCap size={14} /> IIT Kharagpur Alumni
-             </div>
              <h1 className="text-5xl md:text-7xl font-bold mb-6 font-heading">The Builders</h1>
              <p className="text-xl text-gray-400 font-light">
                 We are a team of engineers and strategists from <span className="text-white font-medium">IIT Kharagpur</span>, obsessed with the future of search.
