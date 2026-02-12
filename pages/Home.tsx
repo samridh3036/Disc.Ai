@@ -270,8 +270,6 @@ const Home: React.FC = () => {
              <div className="flex flex-wrap justify-center items-center gap-8 md:gap-20 opacity-60 hover:opacity-100 transition-opacity duration-500">
                 <motion.span whileHover={{ scale: 1.1, color: '#fff' }} className="text-lg md:text-2xl font-bold text-gray-400 font-heading cursor-hover tracking-wide text-center">SNITCH</motion.span>
                 <div className="w-1.5 h-1.5 bg-gray-800 rounded-full hidden md:block"></div>
-                <motion.span whileHover={{ scale: 1.1, color: '#fff' }} className="text-lg md:text-2xl font-bold text-gray-400 font-heading cursor-hover tracking-wide text-center">Z21 Ventures</motion.span>
-                <div className="w-1.5 h-1.5 bg-gray-800 rounded-full hidden md:block"></div>
                 <motion.span whileHover={{ scale: 1.1, color: '#fff' }} className="text-lg md:text-2xl font-bold text-gray-400 font-heading cursor-hover tracking-wide text-center">IIT Kharagpur</motion.span>
              </div>
           </motion.div>
