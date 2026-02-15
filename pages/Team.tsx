@@ -20,7 +20,7 @@ const teamMembers: TeamMemberProps[] = [
     name: "Samridh Joshi",
     role: "Tech Lead",
     subtitle: "IIT Kharagpur",
-    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770810766/Samridh_ib1sml.jpg",
+    imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1771147642/Samridh-removebg-preview_c7gyvy.png",
     delay: 0.1,
     linkedin: "https://www.linkedin.com/in/samridh-joshi-a570b0259/?originalSubdomain=in", // replace with real URL
     instagram: "https://www.instagram.com/_sxmridh/" // replace with real URL
