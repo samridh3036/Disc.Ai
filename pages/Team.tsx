@@ -27,7 +27,7 @@ const teamMembers: TeamMemberProps[] = [
   },
   {
     name: "Amarpreet Singh",
-    role: "Strategy Lead",
+    role: "Product Lead",
     subtitle: "IIT Kharagpur",
     imgUrl: "https://res.cloudinary.com/dq32hf0bc/image/upload/v1770932402/1abd144c-68c8-497f-9849-ddea2e4022a3_eq3pho.jpg",
     delay: 0.2,
